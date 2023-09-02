@@ -50,3 +50,7 @@ body {
 main {
   padding: 35px;
 }
+
+.meme--image {
+  width: 100%;
+}
