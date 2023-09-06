@@ -3,13 +3,22 @@ import Data from '../ResponseData.js';
 
 export default function MemeSection() {
 
-  const [memeImage, setMemeImage] = useState("");
+  const [meme, setMeme] = useState({
+    topText: "",
+    bottomText: "",
+    randomImage: ""
+  });
+
+  const [allMemeImages, setAllMemeImages] = useState(Data)
   
   function getMemeImage(){
-    const memesArray = Data.data.memes
+    const memesArray = allMemeImages.data.memes
     const randomNumber = Math.floor(Math.random() * memesArray.length)
     const imgURL = memesArray[randomNumber].url
-    setMemeImage(imgURL)
+    setMeme(prevMeme => ({
+      ...prevMeme,
+      randomImage: imgURL
+    }))
   }
 
   return (
@@ -30,7 +39,7 @@ export default function MemeSection() {
         </button>
       </div>
 
-      <img src={memeImage} className='meme--image'/>
+      <img src={meme.randomImage} className='meme--image'/>
     </main>
   )
 }
