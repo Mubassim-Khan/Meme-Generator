@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+main {
+  padding: 35px;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -26,10 +30,16 @@ body {
   font-size: 25px;
 }
 
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+} 
+
 .form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 15px;
+  margin-bottom: 15px;
 }
 
 .form--button {
@@ -41,16 +51,53 @@ body {
   border-radius: 5px;
 }
 
-.form--input{
+.form--input {
   border-radius: 5px;
   border: 2px solid #D5D4D8;
   text-indent: 5px;
 }
 
-main {
-  padding: 35px;
+.meme {
+  position: relative;
+  display: flex;
+  place-content: center;
 }
 
 .meme--image {
   max-width: 100%;
+  border-radius: 3px;
+  max-height: 500px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
