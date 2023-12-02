@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 // require('dotenv').config();
-// process.env.local.REACT_APP_MEME_API_KEY
 
 export default function MemeSection() {
   const [meme, setMeme] = useState({
@@ -12,11 +11,10 @@ export default function MemeSection() {
   const [allMemes, setAllMemes] = useState([])
 
   const getMemes = async () => {
-    let url = "https://api.imgflip.com/get_memes";
+    let url = process.env.REACT_APP_MEME_API_KEY;
     let data = await fetch(url);
     let parsedData = await data.json();
     setAllMemes(parsedData.data.memes)
-    console.log(url)
   }
 
   useEffect(() => {
