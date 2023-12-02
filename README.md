@@ -1,12 +1,61 @@
-# GitHub Codespaces ♥️ React
+# Personal Portfolio
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+This repository contains the code of a Meme Generator using React JS purely. The project creates the visual designs, text in different sections & all other parts which are required and necessary for building a Meme Generator.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## Preview
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/97b61852-c5b3-45fc-83de-0fd797443a18/deploy-status)](https://app.netlify.com/sites/m-meme-generator/deploys)
 
-This project was bootstrapped for you with [Create React App](https://github.com/facebook/create-react-app).
+![Preview Image](https://github.com/Mubassim-Khan/Meme-Generator/blob/main/src/Assets/Capture.png)
+
+## Features
+
+- Responsive design: The web page adapts to different screen sizes, ensuring a consistent user experience on desktop & mobile devices.
+- Interactive components: The page includes interactive elements such as buttons, cards & other  effects on UI.
+- CSS styling: The stylesheets provide a sleek and modern look.
+- Edit in your way: Add text on meme templates in the way you want.
+
+## Tech used 🛠️
+
+- [React](https://reactjs.org/) - UI Library
+- [Prettier](https://prettier.io/) - Code Formatter
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Mubassim-Khan/Meme-Generator.git
+```
+
+2. Open the project in your preferred code editor.
+
+3. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## Acknowledgements
+
+* Copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. 
+
+## Contact
+
+If you have any questions, suggestions, or feedback, you can reach out to the project maintainer:
+
+- LinkedIn : [Mubassim Ahmed Khan](https://www.linkedin.com/in/mubassim-ahmed-khan/)
+- Email: [mubassimkhan@gmail.com](mailto:mubassimkhan@gmail.com)
+
+---
+
+<!----->
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -14,12 +63,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
-
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload automatically when you make changes.\
+The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### `npm test`
@@ -36,43 +83,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
