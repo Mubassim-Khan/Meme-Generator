@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Meme Generator
 
 This repository contains the code of a Meme Generator using React JS purely. The project creates the visual designs, text in different sections & all other parts which are required and necessary for building a Meme Generator.
 
